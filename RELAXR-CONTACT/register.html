@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.">
+
+		<title>Relaxr Blog</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+
+		<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+		<script type="text/javascript">
+   		(function(){
+      	emailjs.init("user_5z1TEBcyvgfxLBSi0yfMn");
+   		})();
+		</script>
+
+		<script type="text/javascript" src="js/script.js"></script>
+
+	</head>
+
+	<body>
+		<header>
+
+			<div class="container">
+				<h1 class="logo">Relaxr</h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+
+		</header>
+
+		<section id="main">
+
+			<div class="container">
+
+				<section class="contact">
+
+					<form id="registerForm" action="" method="post" enctype="multipart/for-data">
+
+						<fieldset id="userName"><label>Name</label>
+						<input type="text" name="userName" placeholder="John Doe">
+						</fieldset>
+
+						<fieldset id="userEmail"><label>Email</label>
+						<input type="text" name="userEmail" placeholder="hello@gmail.com">
+						</fieldset>
+
+						<fieldset id="userPhone"><label>Phone Number</label>
+						<input type="text" name="userPhone" placeholder="0400 123 456">
+						</fieldset>
+
+						<fieldset id="selectStates"><label>State</label>
+						<select name="city">
+							<option value="selectState">State</option>
+							<option value="ACT">ACT</option>
+							<option value="NSW">NSW</option>
+							<option value="NT">NT</option>
+							<option value="QLD">QLD</option>
+							<option value="SA">SA</option>
+							<option value="TAS">TAS</option>
+							<option value="VIC">VIC</option>
+							<option value="WA">WA</option>
+						</select>
+						</fieldset>
+
+						<fieldset id="userPassword"><label>Password</label>
+						<input type="password" name="userPassword" placeholder="Password">
+						</fieldset>
+
+						<fieldset id="confirmPassword"><label>Confirm Password</label>
+						<input type="password" name="confirmPassword" placeholder="Password">
+						</fieldset>
+
+						<fieldset id="checkList"><label>What service are you interested in?</label>
+							<input type="checkbox" name="service" value="Relaxing" >Relaxing
+							<input type="checkbox" name="service" value="Email" >Email
+							<input type="checkbox" name="service" value="Phone" >Phone
+						</fieldset>
+
+						<fieldset id="termsConditions">
+							<input type="checkbox" name="termsConditions" value="Agreed">I agree to the terms
+						</fieldset>
+					
+						<fieldset id="submitButton">
+						<input type="submit" value="Register Now!">
+						<form id="registerForm" action="" method="post" enctype="multipart/for-data">
+						<fieldset>
+
+					</form>
+
+				</section>
+
+			</div>
+
+		</section>
+
+		<footer>
+			<h4 class="logo">Relaxr</h4>
+
+			<ul>
+				<li><a href="#"><img src="images/twitter.png" alt="Twitter logo"></a></li>
+				<li><a href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
+			</ul>
+
+			<p class="copyright">Copyright 2015. Relaxr.</p>
+
+		</footer>
+
+	</body>
+
+</html>
